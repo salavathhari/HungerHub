@@ -1,0 +1,24 @@
+.vendor-sidebar {
+  width: 220px;
+  background: #fff;
+  border-right: 1px solid #f0f0f0;
+  min-height: calc(100vh - 80px);
+  padding: 20px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 20px;
+  border-radius: 8px;
+}
+
+.vendor-sidebar-header {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.vendor-sidebar ul { list-style: none; display:flex; flex-direction:column; gap:8px }
+.vendor-sidebar li { padding: 10px 12px; border-radius:8px; cursor:pointer; color:#333 }
+.vendor-sidebar li:hover { background:#f7f7f7 }
+
+@media (max-width:900px) {
+  .vendor-sidebar { display:none }
+}
