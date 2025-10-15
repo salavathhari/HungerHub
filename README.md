@@ -215,7 +215,3 @@ npm rebuild bcrypt
 
 ## License
 - Check `LICENSE` in repository root for licensing details.
-
----
-
-If you want me to also create a `.github/workflows/deploy.yml`, split READMEs, or attempt a local build and deploy test, tell me which and I'll proceed.
